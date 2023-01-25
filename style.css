@@ -1,0 +1,31 @@
+body{
+    background-color: skyblue;
+}
+.pagination a{
+    color: mediumslateblue
+    float: left;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 10px 0 10px 0;
+    transition: background-color 1s;
+    border: 2px solid lightpink;
+}
+
+.pagination a.active{
+    background-color: darkblue;
+    color: bisque;
+
+}
+.pagination a:hover:not(.active){
+    background-color: greenyellow;
+}
+.column{
+   
+    text-align:justify;
+    column-width: 300px;
+    column-rule: 2px solid fuchsia;
+}
+h1{
+    margin-top: 100px;
+    column-span: all;
+}
